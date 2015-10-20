@@ -1,0 +1,61 @@
+﻿Build started 10/20/2015 3:20:25 PM.
+     1>Project "E:\AIE\PongGame\classes\TextBasedGame\constructors\constructors.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\playerstats.h(42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\playerstats.h(125): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(57): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(61): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(68): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(74): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(75): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(82): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(88): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(89): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(102): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(109): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(116): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(123): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(130): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(137): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(144): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(151): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(163): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(169): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(175): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(181): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(187): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(200): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(207): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(214): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(221): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(228): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(235): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(255): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(264): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(265): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(266): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(271): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(272): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(273): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(277): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(278): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(279): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(288): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\enemies.h(289): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\orbitlocs.h(18): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\orbitlocs.h(115): warning C4129: '/': unrecognized character escape sequence
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\main.cpp(72): warning C4129: ' ': unrecognized character escape sequence
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\main.cpp(85): warning C4129: ' ': unrecognized character escape sequence
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\main.cpp(98): warning C4129: ' ': unrecognized character escape sequence
+     1>e:\aie\ponggame\classes\textbasedgame\constructors\main.cpp(210): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\AIE\PongGame\classes\TextBasedGame\constructors\Debug\constructors.exe" /INCREMENTAL /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\AIE\PongGame\classes\TextBasedGame\constructors\Debug\constructors.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\AIE\PongGame\classes\TextBasedGame\constructors\Debug\constructors.lib" /MACHINE:X86 Debug\main.obj
+         constructors.vcxproj -> E:\AIE\PongGame\classes\TextBasedGame\constructors\Debug\constructors.exe
+     1>Done Building Project "E:\AIE\PongGame\classes\TextBasedGame\constructors\constructors.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.79
