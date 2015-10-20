@@ -1,0 +1,14 @@
+In this Text adventure some of my goals were to recreate Destiny (the FPS MMO created by Bungie) with as many similar places, features, and customization as time allowed. Although there were many features that were not implemented, i feel that within the amount of time that we had and other things that had to be worked on that i did ok (i definitely want to work on this game in the future).
+
+Some of the major obstacles that i faced while making this game was to take every feature of the game that i could, and make it work with every part of the game / every area that you could go in. For example, one of the things i was working on was how the player recieved experience, and that no matter how the player would earn it (wether it would be from killing an enemy, or completing a bounty) it would still go in their pool for the xp required for the next level up, and that no matter where the player would be, the level up sign would show up.
+
+string class, well, i ended up using the string class that is provided within Visual Studio due to the fact that i had yet to finish my personal string class;
+
+when it comes to things that i believe i did well in, i would have to say that i tried to implement as many visual things as i could using just the keyboard characters (without using any ascii chars), examples like the boot up guardian sequence, as well as the animation for the slow text and, animation when the player went in and out of orbit.
+another thing that i believe i did well was the enemy class and how diverse it can be while allowing it to be all up to RNG on how it played out.
+
+one of the things that resulted in outside help was when terry had to help me get my battle state working (the issue was that the enemy was being initialized but when the fight ended and the enemy died, if you tried to fight another it any other enemy would be the same as the first enemy/ the one that was originally initialized).
+
+we fixed the problem by putting the initialized enemy into the while loop that contains the fight function, but instead of just leaving it there, we put it in its own while loop.
+
+When it comes to future growth for this game, I hope to be able to continue to work on it, and even publish a link to the destiny forums on bungie and reddit for public feedback on the game. 
