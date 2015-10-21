@@ -194,7 +194,7 @@ int main()
 	PubPlayerType = Guardian.pType;
 	system("pause");
 	
-	Timer(-500, false);
+	Timer(-500, true);
 	system("pause");
 	
 
