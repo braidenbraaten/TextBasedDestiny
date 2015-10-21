@@ -1,1 +1,9 @@
-sadmyMongoose         <-PLAYER NAME
+sd <-Guardian Name
+1 Guardian Level
+0 Guardian XP
+1500 Guardian Glimmer
+40 Player Health
+4 Player Damage
+1 Player Weapon Number
+ Auto Rifle Player Weapon Name
+Arcadia Class JumpShip Player Ship Name

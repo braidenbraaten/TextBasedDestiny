@@ -67,14 +67,14 @@ cout <<"          |   |    |"     <<  "	[5] Shipwright" << endl;
 cout <<"          |   |    |"     <<  "	[6] Guardian Factions" << endl;
 cout <<"          |   |    |"     <<  "	[7] Go to Orbit" << endl;
 cout << "          |   |   /" << "     [8] Guardian Stats" << endl;
-cout << "          |   |  /"       << endl;
+cout << "          |   |  /"  << "    [9] Save Stats"      << endl;
 cout << "          |___|_/"        << endl;
 }
 
 void Tower()
 {
 	bool leave = false;
-	enum TowerLocs { HAHAHANOOB, POSTMASTER, CRYPTARCH, GUNSMITH,BOUNTY,  SHIPWRIGHT,GUARDIAN_FACTIONS, ORBIT, PLAYER_STATS };
+	enum TowerLocs { HAHAHANOOB, POSTMASTER, CRYPTARCH, GUNSMITH,BOUNTY,  SHIPWRIGHT,GUARDIAN_FACTIONS, ORBIT, PLAYER_STATS, SAVE_GAME };
 	int answer = 0;
 	PlaySound(NULL, 0, 0);
 	
@@ -106,9 +106,10 @@ void Tower()
 		case GUNSMITH  :break;
 		case SHIPWRIGHT:break;
 		case BOUNTY    :BountyTracker(); break;
-		case GUARDIAN_FACTIONS: DeadOrbit(false,Guardian.getGlimmer());
+		case GUARDIAN_FACTIONS: DeadOrbit(false, Guardian.getGlimmer()); break;
 		case ORBIT     :leave = true; break;
-		case PLAYER_STATS:  PrintPlayerLevelStats();
+		case PLAYER_STATS:  PrintPlayerLevelStats(); break;
+		case SAVE_GAME: SaveStats(); break;
 		default        :Tower();break;
 		}
 

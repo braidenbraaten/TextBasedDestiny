@@ -1,5 +1,4 @@
 #include <iostream>
-#include <fstream>
 #include <cmath>
 #include <Windows.h>
 #include <mmsystem.h>
@@ -8,30 +7,9 @@
 #include "PlayerStats.h"
 #include "Enemies.h"
 #include <string>
-
-
-fstream file;
-void WriteFile(char data[]) // to player Info
-{
-	
-	file.open("playerInfo.txt");
-	file << data;
-
-	file.close();
-}
-
-class Files
-{
-	Files(char data[])
-	{
-		file.open("playerInfo.txt");
-		file << data;
-		file.close();
-	}
-	
-
-};
 using namespace std;
+
+
 
 void Orbit();
 	
@@ -204,6 +182,10 @@ void Timer(int setTimer, bool timerOn)
 
 int main()
 {
+
+
+	
+
 	//Enemy comprised of a randomly picked FALLEN type enemy;
 	Enemy enemy(FALLEN);
 	

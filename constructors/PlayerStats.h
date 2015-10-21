@@ -3,8 +3,32 @@
 #include <cmath>
 #include <ctime>
 #include <string>
+#include <fstream>
 
 using namespace std;
+
+
+ofstream playerStats;
+
+void DataInStream(float data, string defineData)
+{
+	
+	playerStats << data << " " << defineData << endl;
+	
+}
+
+void DataInStream(int data, string defineData)
+{	
+	playerStats << data << " " << defineData << "\n";
+}
+
+void StringInStream(string data, string defineData)
+{
+	playerStats << data << " " << defineData << "\n";
+
+}
+
+
 enum Armor {BASIC, SILLY_SAUCE, CAPTAIN_DAMN_BERRIES, HARDCORE_PARCORE, MASTA_CHIEF_STATUS};
 enum Weapons {HAND_CANNON, AUTO_RIFLE, SCOUT_RIFLE, SNIPER_RIFLE, ROCKET};
 enum PlayerType {meh, HUNTER, WARLOCK, TITAN};
@@ -78,7 +102,7 @@ public:
 		cout << "[1]Hunter" << endl;
 		cout << "[2]Warlock" << endl;
 		cout << "[3]Titan" << endl;
-		cin >> pType;
+		cin >> pType;	
 		switch (pType)
 		{
 		case HUNTER: PlayerWeapon = SCOUT_RIFLE; PlayerArmor = BASIC;                 break;
@@ -210,4 +234,26 @@ void UpdateExperience(int addedXP)
 
 }
 
-
+void SaveStats()
+{
+	playerStats.open("playerInfo.txt");
+	//Player Name
+	StringInStream(Guardian.getName(), "<-Guardian Name");
+	//Player Level
+	DataInStream(Guardian.getPlayerLevel(), "Guardian Level");
+	//Experience
+	DataInStream(Guardian.getPlayerExperience(), "Guardian XP");
+	//Glimmer
+	DataInStream(Guardian.getGlimmer(), "Guardian Glimmer");
+	//Health
+	DataInStream(Guardian.getHealth(), "Player Health");
+	//damage
+	DataInStream(Guardian.getDamage(), "Player Damage");
+	//weaponNumber
+	DataInStream(Guardian.getWeapon(), "Player Weapon Number");
+	//Weapon Name
+	StringInStream(Guardian.getWeaponName(), "Player Weapon Name");
+	//Ship Name
+	StringInStream(Guardian.getShipName(), "Player Ship Name");
+	playerStats.close();
+}
